@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #93e1ad, #eeceb2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login-box {
+    background-color: #c47fea;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #1f1f1f;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #151515;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #888;
+    font-size: 14px;
+}
+
+.login-button {
+    background: linear-gradient(135deg, #d5e3d4, #d1bcec);
+    color: #8e8989;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+}
+
+.login-button:hover {
+    background: linear-gradient(135deg, #e56e24, #b198d7);
+}
+
+.social-login {
+    margin-bottom: 20px;
+}
+
+.social-login p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-buttons a {
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.facebook {
+    background-color: #0f2f75; /* Facebook color */
+}
+
+.gmail {
+    background-color: #890f03; /* Gmail color */
+}
+
+.x {
+    background-color: #130b4f; /* X (Twitter) color */
+}
+
+.sign-up {
+    margin-top: 20px;
+}
+
+.sign-up p {
+    color: #1d1414;
+    margin-bottom: 10px;
+}
+
+.sign-up a {
+    text-decoration: none;
+    color: #283665;
+    font-weight: 600;
+}
+
+/* Ajustes para las imágenes de los botones sociales */
+.social-buttons img {
+    width: 24px; /* Tamaño adecuado para los íconos */
+    height: 24px;
+}
